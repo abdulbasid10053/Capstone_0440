@@ -9,6 +9,7 @@ android {
 
     buildFeatures {
         viewBinding true
+        mlModelBinding true
     }
 
     defaultConfig {
@@ -47,6 +48,7 @@ dependencies {
     implementation "androidx.appcompat:appcompat:$appCompatVersion"
     implementation "com.google.android.material:material:$materialVersion"
     implementation "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion"
+    implementation 'org.tensorflow:tensorflow-lite-metadata:0.1.0-rc2'
     testImplementation "junit:junit:$junitVersion"
     androidTestImplementation "androidx.test.ext:junit:$junitExtversion"
     androidTestImplementation "androidx.test.espresso:espresso-core:$espressoVersion"

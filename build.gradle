@@ -34,6 +34,6 @@ ext {
     junitVersion = '4.13.2'
     junitExtversion = '1.1.2'
     espressoVersion = '3.3.0'
-    recyclerViewVersion = '1.2.0'
+    recyclerViewVersion = '1.2.1'
     cardViewVersion = '1.0.0'
 }
